@@ -1,4 +1,4 @@
-image: alpine:latest
+FROM: alpine:latest
 RUN: apk update && add \
     git \
     git-lfs \
